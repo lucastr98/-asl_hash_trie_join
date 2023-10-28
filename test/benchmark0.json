@@ -1,0 +1,22 @@
+{
+  "benchmarks": [
+    {
+      "relations": [
+        "nation",
+        "region"
+      ],
+      "sizes": [
+        25,
+        5
+      ],
+      "join_attributes": [
+        [
+          "n_regionkey"
+        ],
+        [
+          "r_regionkey"
+        ]
+      ]
+    }
+  ]
+}

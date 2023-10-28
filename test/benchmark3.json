@@ -1,0 +1,30 @@
+{
+  "benchmarks": [
+    {
+      "relations": [
+        "customer",
+        "orders",
+        "lineitem"
+      ],
+      "sizes": [
+        150000,
+        1500000,
+        4000000
+      ],
+      "join_attributes": [
+        [
+          "c_custkey",
+          ""
+        ],
+        [
+          "o_custkey",
+          "o_orderkey"
+        ],
+        [
+          "",
+          "l_orderkey"
+        ]
+      ]
+    }
+  ]
+}

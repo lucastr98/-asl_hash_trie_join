@@ -1,0 +1,30 @@
+{
+  "benchmarks": [
+    {
+      "relations": [
+        "part",
+        "partsupp",
+        "supplier"
+      ],
+      "sizes": [
+        200000,
+        800000,
+        10000
+      ],
+      "join_attributes": [
+        [
+          "p_partkey",
+          ""
+        ],
+        [
+          "ps_partkey",
+          "ps_suppkey"
+        ],
+        [
+          "",
+          "s_suppkey"
+        ]
+      ]
+    }
+  ]
+}

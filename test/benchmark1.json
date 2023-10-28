@@ -1,0 +1,29 @@
+{
+  "benchmarks": [
+    {
+      "relations": [
+        "supplier",
+        "lineitem",
+        "orders",
+        "nation"
+      ],
+      "sizes": [
+        10000,
+        2000000,
+        1500000,
+        25
+      ],
+      "join_attributes": [
+        [
+          "s_suppkey", "",           "s_nationkey"
+        ],
+        [ "l_suppkey", "l_orderkey", ""
+        ],
+        [ "",           "o_orderkey",""
+        ],
+        [ "",           "",          "n_nationkey"
+        ]
+      ]
+    }
+  ]
+}
