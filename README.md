@@ -26,17 +26,10 @@ In case you're missing something, do:
 $ apt-get install libpq-dev postgresql-server-dev-all
 ```
 
-* Check this repo for info on getting TPC-H data into csv: https://github.com/tvondra/pg_tpch, then place into ./sql/data.
-* Make sure that the files in ./sql/data are in csv format.
+* Check this repo for info on getting TPC-H data into csv: https://github.com/tvondra/pg_tpch, then place into `./sql/data`.
+* Make sure that the files in `./sql/data` are in csv format.
 * Create a PostgreSQL database by the name of tpch_db.
-* run setup_database.sh
-```
-sh ./setup_database.sh <DB_USER> <DB_PASSWORD>
-```
-
-#### 'Synthetic' benchmark setup
-* Same as for TPC-H data, except first create a database named synthetic_db.
-* run setup_database.sh
+* run `setup_database.sh`
 ```
 sh ./setup_database.sh <DB_USER> <DB_PASSWORD>
 ```
