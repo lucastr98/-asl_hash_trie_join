@@ -1,14 +1,8 @@
 .vscode
-*.gch
 **/build/*
 **/tpch/*
 *.gch
 sql/**/data/*
-TODO.md
 results
 times
-venv/
-.ipynb_checkpoints/
-xx.txt
-benchmark_all.json
 measurements/*.png

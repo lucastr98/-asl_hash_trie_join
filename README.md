@@ -1,7 +1,5 @@
-# Advanced Systems Lab - Team 34
-
-## Problem Description
-We're implementing and optimizing the algorithms described in the paper [Combining Worst-Case Optimal and Traditional Binary Join Processing](https://db.in.tum.de/~freitag/papers/p1891-freitag.pdf).
+# Advanced Systems Lab - Optimizing Worst-Case Optimal Joins
+In a team of four we implemented and optimized the algorithms described in the paper [Combining Worst-Case Optimal and Traditional Binary Join Processing](https://db.in.tum.de/~freitag/papers/p1891-freitag.pdf). I mainly focused on algorithms 2 & 3 and therefore only kept that part in this repo. For more details about the optimizations have a look at the report (`./report.pdf`).
 
 ## Build
 ### Hash Trie Join 
@@ -42,9 +40,3 @@ sh ./setup_database.sh <DB_USER> <DB_PASSWORD>
 ```
 sh ./setup_database.sh <DB_USER> <DB_PASSWORD>
 ```
-
-## Optimizations
-### Linked List Removed
-Change the linked list to two arrays, one with the values and one with indices
-### No Recurse
-Remove recursions from all algorithms
