@@ -13,7 +13,7 @@ This should generate an executable called `hash_trie_join_program` inside the bu
 ./hash_trie_join_program
 ```
 
-### Sql setup
+## Sql setup
 
 Make sure you have postgreSQL installed (https://www.postgresql.org/download/).
 
