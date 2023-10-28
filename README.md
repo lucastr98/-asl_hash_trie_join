@@ -1,5 +1,5 @@
 # Advanced Systems Lab - Optimizing Worst-Case Optimal Joins
-In a team of four we implemented and optimized the algorithms described in the paper [Combining Worst-Case Optimal and Traditional Binary Join Processing](https://db.in.tum.de/~freitag/papers/p1891-freitag.pdf). I mainly focused on algorithms 2 & 3 and therefore only kept that part in this repo. For more details about the optimizations have a look at the report (`./report.pdf`).
+In a team of four we implemented and optimized the algorithms described in the paper [Combining Worst-Case Optimal and Traditional Binary Join Processing](https://db.in.tum.de/~freitag/papers/p1891-freitag.pdf). I mainly focused on algorithms 3 and only kept algorithms 2 & 3 (which work together) in this repo. For more details about the optimizations have a look at the report (`./report.pdf`).
 
 ## Build
 ### Hash Trie Join 
